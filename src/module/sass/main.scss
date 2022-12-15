@@ -1,0 +1,116 @@
+@import "../../component/layout/header/style__header";
+@import "../../component/layout/home/style__home";
+@import "../../component/layout/service/style__service";
+@import "../../component/layout/product/style__product";
+@import "../../component/layout/about/style__about";
+@import "../../component/layout/reviews/style__reviews";
+@import "../../component/layout/contact/style__contact";
+@import "../../component/layout/blogs/style__blogs";
+@import "../../component/layout/footer/style__footer";
+@import "../../component/layout/Cart/style__cart";
+@import "../../component/login/style__login";
+@import "../../component/layout/loginLayOut/style__loginLayOut"; // ------------------------
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600&display=swap");
+
+$logo-color: linear-gradient(to right, #5e0078, #522be0, #04c3c9);
+
+body {
+    width: 100%;
+    height: auto;
+    background: $logo-color;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: $black;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: $yellow;
+        border-radius: 5rem;
+    }
+}
+
+// ------------------------------
+// media queries
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 3rem;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        justify-content: flex-end;
+        gap: 2rem;
+
+        .logo {
+            transform: translateX(0);
+            left: 3rem;
+        }
+
+        #menu-btn {
+            display: inline-block;
+        }
+
+        .navbar {
+            position: absolute;
+            top: 99%;
+            left: 0;
+            right: 0;
+            background: $black;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+            a {
+                display: block;
+                margin: 3rem 2rem;
+            }
+
+            .space {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .home .content h3 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+}

@@ -1,0 +1,97 @@
+@mixin title-text($titleSize) {
+    font-size: $titleSize;
+    text-transform: uppercase;
+    color: $white;
+}
+
+@mixin grap-text($grapSize) {
+    font-size: $grapSize;
+    line-height: 2;
+    color: #000;
+}
+
+@mixin grid($val) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($val, 1fr));
+    gap: 2rem;
+}
+
+.contact {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        .map {
+            flex: 1 1 40rem;
+            width: 100%;
+        }
+
+        .form {
+            flex: 1 1 40rem;
+
+            .icons-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                margin-bottom: 3rem;
+
+                .icons {
+                    flex: 1 1 17rem;
+                    text-align: center;
+
+                    i {
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 3rem;
+                    }
+
+                    h3 {
+                        padding: 1rem 0;
+                        @include title-text(2rem);
+                    }
+
+                    p {
+                        @include grap-text(1.5rem);
+                    }
+                }
+            }
+
+            form {
+                text-align: center;
+                .placeholder {
+                    color: #fff;
+                }
+
+                .box {
+                    padding: 1.2rem 1.4rem;
+                    font-size: 1.6rem;
+                    color: $white;
+                    background: none;
+                    border: $border;
+                    text-transform: none;
+                    width: 100%;
+                    margin: 0.7rem 0;
+
+                    &:focus {
+                        border-color: $yellow;
+                    }
+                }
+
+                input {
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+
+                textarea {
+                    height: 15rem;
+                    resize: none;
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
