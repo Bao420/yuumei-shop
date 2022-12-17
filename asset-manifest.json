@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/yuumei-shop/static/css/main.bd16e553.css",
-    "main.js": "/yuumei-shop/static/js/main.6fc08871.js",
-    "static/js/496.7f111e68.chunk.js": "/yuumei-shop/static/js/496.7f111e68.chunk.js",
-    "static/media/image1.png": "/yuumei-shop/static/media/image1.0d802b20960df0d5b991.png",
-    "static/media/image2.jpg": "/yuumei-shop/static/media/image2.03dce9a0b9449ac945c2.jpg",
-    "static/media/image1.jpg": "/yuumei-shop/static/media/image1.c328dc78e3603cc03bae.jpg",
-    "static/media/image3.jpg": "/yuumei-shop/static/media/image3.40f35eeebe2d1d060ac4.jpg",
-    "static/media/image5.jpg": "/yuumei-shop/static/media/image5.04e0033a07072f1c25ac.jpg",
-    "static/media/image4.jpg": "/yuumei-shop/static/media/image4.f74845a6f21f6151662c.jpg",
-    "static/media/image6.jpg": "/yuumei-shop/static/media/image6.65c8328615cc730d2c5e.jpg",
-    "static/media/image12.jpg": "/yuumei-shop/static/media/image12.81e4074c879aa2264df4.jpg",
-    "static/media/image7.jpg": "/yuumei-shop/static/media/image7.7486f670375eadd9c1eb.jpg",
-    "static/media/image10.jpg": "/yuumei-shop/static/media/image10.dbaf0b163dd0c3e57e9a.jpg",
-    "static/media/image11.jpg": "/yuumei-shop/static/media/image11.f6763cf3f8cfbf68a755.jpg",
-    "static/media/image8.jpg": "/yuumei-shop/static/media/image8.5587a152469edaf4a1d1.jpg",
-    "static/media/image9.jpg": "/yuumei-shop/static/media/image9.b85394faf26e0155a262.jpg",
-    "static/media/image1.JPG": "/yuumei-shop/static/media/image1.e87ec9add0dd960fc0b7.JPG",
-    "index.html": "/yuumei-shop/index.html",
-    "main.bd16e553.css.map": "/yuumei-shop/static/css/main.bd16e553.css.map",
-    "main.6fc08871.js.map": "/yuumei-shop/static/js/main.6fc08871.js.map",
-    "496.7f111e68.chunk.js.map": "/yuumei-shop/static/js/496.7f111e68.chunk.js.map"
+    "main.css": "/static/css/main.bd16e553.css",
+    "main.js": "/static/js/main.4e7061a1.js",
+    "static/js/496.7f111e68.chunk.js": "/static/js/496.7f111e68.chunk.js",
+    "static/media/image1.png": "/static/media/image1.0d802b20960df0d5b991.png",
+    "static/media/image2.jpg": "/static/media/image2.03dce9a0b9449ac945c2.jpg",
+    "static/media/image1.jpg": "/static/media/image1.c328dc78e3603cc03bae.jpg",
+    "static/media/image3.jpg": "/static/media/image3.40f35eeebe2d1d060ac4.jpg",
+    "static/media/image5.jpg": "/static/media/image5.04e0033a07072f1c25ac.jpg",
+    "static/media/image4.jpg": "/static/media/image4.f74845a6f21f6151662c.jpg",
+    "static/media/image6.jpg": "/static/media/image6.65c8328615cc730d2c5e.jpg",
+    "static/media/image12.jpg": "/static/media/image12.81e4074c879aa2264df4.jpg",
+    "static/media/image7.jpg": "/static/media/image7.7486f670375eadd9c1eb.jpg",
+    "static/media/image10.jpg": "/static/media/image10.dbaf0b163dd0c3e57e9a.jpg",
+    "static/media/image11.jpg": "/static/media/image11.f6763cf3f8cfbf68a755.jpg",
+    "static/media/image8.jpg": "/static/media/image8.5587a152469edaf4a1d1.jpg",
+    "static/media/image9.jpg": "/static/media/image9.b85394faf26e0155a262.jpg",
+    "static/media/image1.JPG": "/static/media/image1.e87ec9add0dd960fc0b7.JPG",
+    "index.html": "/index.html",
+    "main.bd16e553.css.map": "/static/css/main.bd16e553.css.map",
+    "main.4e7061a1.js.map": "/static/js/main.4e7061a1.js.map",
+    "496.7f111e68.chunk.js.map": "/static/js/496.7f111e68.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd16e553.css",
-    "static/js/main.6fc08871.js"
+    "static/js/main.4e7061a1.js"
   ]
 }
