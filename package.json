@@ -1,7 +1,7 @@
 {
   "name": "yuumei-shop",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://bao420.github.io/yuumei-shop",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.6",
