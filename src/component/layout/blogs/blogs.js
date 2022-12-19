@@ -9,7 +9,6 @@ function blogs() {
             <section className="blogs" id="blogs">
 
                 <div className="heading">
-                    <img src="images/title-img.png" alt=""></img>
                     <h3>daily posts</h3>
                 </div>
 

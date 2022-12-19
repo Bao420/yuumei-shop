@@ -1,6 +1,6 @@
 {
   "name": "yuumei-shop",
-  "homepage": "https://bao420.github.io/yuumei-shop/",
+  "proxy": "http://localhost:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,7 +21,7 @@
     "redux": "^4.2.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

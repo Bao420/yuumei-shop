@@ -15,7 +15,6 @@ function reviews() {
             <section className="reviews" id="reviews">
 
                 <div className="heading">
-                    {/* <img src="images/title-img.png" alt=""></img> */}
                     <h3>Artist</h3>
                 </div>
 
