@@ -1,6 +1,7 @@
 {
   "name": "yuumei-shop",
   "proxy": "http://localhost:5000",
+  "homepage": "https://bao420.github.io/yuumei-shop/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
